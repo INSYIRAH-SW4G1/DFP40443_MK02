@@ -1,3 +1,7 @@
+<?php 
+include 'biodata.php'; 
+?>
+
 <!DOCTYPE html> 
 <html>
     <head>
@@ -8,6 +12,12 @@
     </head>
 
     <body>        
-        <?php include 'biodata.php'; ?>
+        <h1>BIODATA SAYA</h1>
+
+        <img src=" image.jpg" alt="Gambar Insyirah">
+
+        <p>Nama: <?php echo $nama; ?></p>
+        <p>No Matrik: <?php echo $nomatrik; ?></p>
+        <p>Kelas: <?php echo $kelas; ?></p>
     </body>
 </html>
